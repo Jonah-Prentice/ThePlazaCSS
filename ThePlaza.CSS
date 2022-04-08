@@ -1,0 +1,198 @@
+/*Cookie banner */
+
+/* Fonts */
+
+H1 {
+    font-family: agenda, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.8rem;
+}
+
+H2 {
+    font-family: agenda, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+H3 {
+    font-family: agenda, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.7rem;
+}
+
+H4 {
+    font-family: agenda, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: agenda, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+a {
+    font-family: agenda, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+strong,
+b {
+    font-weight: bold;
+}
+
+/* links and buttons */
+
+.button {
+    border: 0px !important;
+    outline: none;
+    background-color: #fcfcfc;
+    cursor: pointer;
+    min-width: 200px;
+    margin: 5px;
+    text-align: left;
+    color: #332b32;
+    box-shadow: none;
+    border-radius: 11px;
+}
+
+#red {
+    background-color: #BC574E;
+    color: #fff;
+}
+
+#blue {
+    background-color: #5C60AD;
+    color: #fff;
+}
+
+#green {
+    background-color: #687D44;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #332a32;
+    color: #fff;
+}
+
+.button:active {
+    background-color: #332a32;
+    color: #fff;
+}
+
+/* Header */
+
+#main>header {
+    padding: 6em 3em 3em 3em;
+}
+
+#main {
+    margin-top: 0;
+    padding: 0;
+}
+
+#header .logo .symbol img {
+    padding: 0.5em 0;
+    margin-left: 15px;
+    width: 10em;
+}
+
+#header.alt .logo {
+    visibility: visible !important;
+    pointer-events: auto !important;
+    opacity: 1 !important;
+    display: block !important;
+}
+
+#header {
+    padding: 3rem 0rem;
+}
+
+#heading {
+    display: none;
+}
+
+#nav {
+    right: 5%;
+    position: absolute;
+}
+
+#header .container {display: inline-flex;width: 100%;margin: auto 3rem;}
+
+#header .h1 {display: none;}
+
+nav.breadcrumb {
+    position: absolute;
+}
+
+/* Logo */
+
+#header .logo .symbol img {
+    height: 170px !important;
+    width: 100% !important;
+}
+
+/* Footer */
+
+#footer {
+    padding: 3rem 5rem;
+    background-color: #3D3D3D;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.footer_logo_image {
+    width: 100%;
+    min-width: 150px;
+    float: none;
+    margin-left: 0px;
+    max-width: 150px;
+}
+
+#footer a,
+#footer p,
+#footer li {
+    color: #fff
+}
+
+#footer strong {
+    color: #C4E38B;
+}
+
+/* general body study */
+
+body {
+    overflow-wrap: unset;
+    word-wrap: unset;
+    hyphens: none;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overscroll-behavior: contain;
+    min-height: 100vh;
+}
+
+.row>* {
+    padding: 0;
+}
+
+.inner {
+    max-width: 90em !important;
+    margin: 0px !important;
+    padding: 0 2.5rem;
+}
+
+
+nav.breadcrumb {
+    position: absolute;
+}
